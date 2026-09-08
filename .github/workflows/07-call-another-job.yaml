@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   feature-pipeline:
-    uses: Jo-actions/github-actions/ .github/workflows/nodejs-feature-pipeline.yaml@main
+    uses: Jo-actions/workflows/.github/workflows/nodejs-feature-pipeline.yaml@main
     with:
      project: "roboshop"
      component: "catalogue"
