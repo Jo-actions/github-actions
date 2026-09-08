@@ -1,0 +1,10 @@
+name: Triggers
+on:  workflow_dispatch
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+       - name: Manual dispatch
+         run: "manually dispatched"
+
