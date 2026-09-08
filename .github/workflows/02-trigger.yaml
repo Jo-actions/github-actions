@@ -1,8 +1,8 @@
 name: Triggers
 on: 
-  [push] 
-  branches:
-   - 'feature*'
+  push: 
+    branches:
+     - 'feature*'
   #workflow_dispatch
 
 jobs:
