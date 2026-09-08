@@ -65,9 +65,9 @@ jobs:
   scan:
     runs-on: ubuntu-latest
     steps:
-      - name: run sonar scan
-        run: echo "Sonar Scan"
+    - name: run sonar scan
+      run: echo "Sonar Scan"
 
-      - name: print job Contexts
-        run: "${{ toJson(job) }}"
+    - name: print job Contexts
+      run: echo "${{ toJson(job) }}"
       
