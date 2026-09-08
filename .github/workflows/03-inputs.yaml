@@ -1,6 +1,6 @@
 name : Inputs demo
 on: 
-  workflow_disptach:
+  workflow_dispatch:
     inputs:
       logLevel: 
         description: 'Log Level'
