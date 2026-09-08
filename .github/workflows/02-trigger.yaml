@@ -12,6 +12,7 @@ jobs:
       # - name: Manual dispatch
       #   run: echo "manually dispatched"
       - name: feature branch push
-        run: echo "feature branch push"
+        run: echo "main branch push"
+        
     
  
